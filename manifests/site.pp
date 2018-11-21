@@ -5,6 +5,6 @@ file {'/root/README':
   owner   => root,
  }
 }
-node 'puppetmaster.adobeconsulting.com' {
+node 'sj1010010255150.corp.adobe.com' {
   include role::master_server
 }
